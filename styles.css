@@ -19,9 +19,9 @@ li a {
   } 
 
 a:link {
-color: rgb(238, 20, 20);
-background-color: transparent;
-text-decoration: none;
+    color: rgb(238, 20, 20);
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .Title{
