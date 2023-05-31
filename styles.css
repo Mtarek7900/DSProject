@@ -1,94 +1,77 @@
-body {
-    margin: 0;
-    background: rgb(161, 104, 236);
-}
 
-h2{
-    font-weight: bold;
-}
-li{
+body{
     display: flex;
-    padding: 20px;
-    
-    /* margin: 20px; */
+    flex-direction: column;  
+    background-color: #F5F5DC;
 }
 
-li a {
-    font-weight: normal;
-    font-size: 25px;
-  } 
-
-a:link {
-    color: rgb(238, 20, 20);
-    background-color: transparent;
-    text-decoration: none;
+h1{
+    /* position: absolute; */
+    margin-bottom: 0%;
+    color: #CBB279;
+}
+h2{
+    color:#CBB279;
+}
+p{
+    margin: 2.5%;
+    color: #00bfff;
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+a{
+    color: #CBB279;
+}
+.SectionsTitle{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-bottom: 5%;
+    background-image: url("images/MosqueCover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 
+img{
+    width: 100%;    
+}
 .Title{
-    padding: 30pt;
-    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.titleImage{
+    position: relative;
+    width:100%;
+    height:100%;
 }
 
-.Sections{
-    margin: auto;
-    width: 60%;
-    padding: 50pt;
-    font-family: 'Cardo';
-    font-size: 20px;
+.zipImage{
+    
 }
+.locImage{
 
-.container {
-    width: auto;
-    height: auto;
 }
+.cleanedImage{
 
-.container img {
+}
+.statsImage{
     width: 100%;
-    height: 30%;
-    padding-bottom: 20px;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
-.container2 {
-    width: auto;
-    height: auto;
 }
+.mapImage{
 
-.container2 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: auto;
-    padding-bottom: 20px;
 }
-
-.container3 {
-    width: auto;
-    height: auto;
-}
-
-.container3 img {
-    width: auto;
-    height: auto;
-    padding-bottom: 20px;
-}
-
-.container4 {
-    width: auto;
-    height: auto;
-}
-
-.container4 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: auto;
-    padding-bottom: 20px;
-}
-
-xmp{
-    background-color: rgb(216, 165, 131);
-    margin:80px;
-}
-
